@@ -14,7 +14,7 @@ export default function Details() {
                 console.log(json);
                 setSingleBeer(json)
             })
-    }, [])
+    }, [apiID])
 
     return (
         <div className="detailPage">
