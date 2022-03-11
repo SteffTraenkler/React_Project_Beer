@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 
 export default function Details() {
-    let apiID = useParams('id')
+    let apiID = useParams('_id')
     console.log(apiID);
 
     const [singlebeer, setSingleBeer] = useState([])
